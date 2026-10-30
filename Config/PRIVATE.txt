@@ -4,3 +4,8 @@
 
 # OpenClash
 CONFIG_PACKAGE_luci-app-openclash=y
+# frp
+CONFIG_PACKAGE_frp=y
+CONFIG_PACKAGE_luci-app-frpc=y
+# 如果还需要服务端，再加上：
+CONFIG_PACKAGE_luci-app-frps=y
