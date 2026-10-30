@@ -33,7 +33,7 @@ env:
 jobs:
   core:
     name: Redmi-AX6000-${{ inputs.WRT_SOURCE }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
       - name: Checkout Projects
